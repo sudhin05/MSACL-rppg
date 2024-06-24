@@ -1,7 +1,7 @@
 function Pearson_coeff = get_Pearson_coeff(X, Y)
 % Pearson_correlation_coefficient
-% input£ºX Y
-% output£ºPearson_coeff
+% inputÂ£ÂºX Y
+% outputÂ£ÂºPearson_coeff
 if length(X) ~= length(Y)
     error('Dimension is not equal');
 end
